@@ -1,0 +1,5 @@
+﻿  Product.cpp
+c:\users\tian\onedrive\oop\oop-workshops-master\ws06\home\product.cpp(49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Sale.cpp
+  Generating Code...
+  Project1.vcxproj -> C:\Users\Tian\OneDrive\OOP\OOP-Workshops-master\WS06\home\x64\Debug\Project1.exe
