@@ -1,0 +1,26 @@
+Name: Tian Zheng
+Student Number: 155394174
+Email: tzheng26@myseneca.ca
+
+Question 5: 
+Write the declaration for an iterator 'i' that can be used with a std::vector<int>
+
+Answer: 
+std::vector<int> ::iterator i;
+
+
+
+Question 6:
+Complete the following code that prints out the contents of a list container in STL.
+int main(){   
+std::list  
+         myList;            
+for(auto i = _________; i < _______________; i++)        
+       std::cout << _________ << std::endl;
+}
+
+
+Answer:
+myList.begin()
+myList.end()
+*i 
