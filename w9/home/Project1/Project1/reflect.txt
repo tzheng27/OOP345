@@ -1,0 +1,25 @@
+/*
+Name: Tian Zheng
+Student Number: 155394174
+Email: tzheng26@myseneca.ca
+*/
+In this workshop, I have learned: 
+1. Binary file operations ¨C read and write characters to/from a file in binary mode:
+READ: 
+std::fstream f(file, std::ios::in | std::ios::binary);
+WRITE:
+std::fstream f(file, std::ios::out | std::ios::binary | std::ios::trunc);
+
+2. Binding a function to its arguments ¨C bind a function to arguments using std::bind:
+auto fn = std::bind(converter, text, key, nbytes, Cryptor());
+
+3. Multi-threading ¨C process data with 2 threads:
+auto fn = std::bind(converter, text, key, nbytes, Cryptor());
+
+std::thread t1(fn);
+std::thread t2(fn);
+
+t1.join();
+t2.join();
+
+encoded = !encoded;
