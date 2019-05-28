@@ -1,0 +1,10 @@
+﻿  w7.cpp
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\datatable.h(39): error C3861: 'y': identifier not found
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\datatable.h(60): note: see reference to class template instantiation 'sict::DataTable<T>' being compiled
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\datatable.h(60): error C2953: 'sict::DataTable': class template has already been defined
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\datatable.h(20): note: see declaration of 'sict::DataTable'
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\w7.cpp(32): error C2514: 'sict::DataTable': class has no constructors
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\datatable.h(20): note: see declaration of 'sict::DataTable'
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\w7.cpp(34): error C2662: 'void sict::DataTable<T>::displayData(std::ostream &) const': cannot convert 'this' pointer from 'sict::DataTable' to 'const sict::DataTable<T> &'
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\w7.cpp(34): note: Reason: cannot convert from 'sict::DataTable' to 'const sict::DataTable<T>'
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\lab\project1\project1\w7.cpp(34): note: Conversion requires a second user-defined-conversion operator or constructor

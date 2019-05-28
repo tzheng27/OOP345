@@ -1,0 +1,53 @@
+﻿  w7.cpp
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(62): warning C4244: 'initializing': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(57): note: while compiling class template member function 'void sict::DataTable<float>::regression(T &,T &) const'
+          with
+          [
+              T=float
+          ]
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(78): note: see reference to function template instantiation 'void sict::DataTable<float>::regression(T &,T &) const' being compiled
+          with
+          [
+              T=float
+          ]
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\w7.cpp(32): note: see reference to class template instantiation 'sict::DataTable<float>' being compiled
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(53): warning C4244: 'initializing': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(50): note: while compiling class template member function 'T sict::DataTable<T>::median(void) const'
+          with
+          [
+              T=float
+          ]
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(84): note: see reference to function template instantiation 'T sict::DataTable<T>::median(void) const' being compiled
+          with
+          [
+              T=float
+          ]
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(54): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(47): warning C4244: 'return': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(42): note: while compiling class template member function 'T sict::DataTable<T>::sigma(void) const'
+          with
+          [
+              T=float
+          ]
+  c:\users\tian\onedrive\oop\oop-workshops-master\ws07\home\project1\project1\datatable.h(83): note: see reference to function template instantiation 'T sict::DataTable<T>::sigma(void) const' being compiled
+          with
+          [
+              T=float
+          ]
+  Project1.vcxproj -> C:\Users\Tian\OneDrive\OOP\OOP-Workshops-master\WS07\home\Project1\Debug\Project1.exe
